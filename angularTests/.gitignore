@@ -1,12 +1,12 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-angularTests/dist
-angularTests/tmp
-angularTests/out-tsc
+/dist
+/tmp
+/out-tsc
 
 # dependencies
-angularTests/node_modules
+/node_modules
 
 # IDEs and editors
 /.idea
@@ -16,6 +16,13 @@ angularTests/node_modules
 *.launch
 .settings/
 *.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 
 # misc
 /.sass-cache
