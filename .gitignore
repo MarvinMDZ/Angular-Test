@@ -7,6 +7,7 @@ angularTests/out-tsc
 
 # dependencies
 angularTests/node_modules
+angularTests/e2e
 
 # IDEs and editors
 /.idea
